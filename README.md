@@ -37,6 +37,4 @@ Already configured:
 - `<meta name="google-site-verification">`: Search Console verification tag
 - `<meta name="robots">`: index, follow
 
-## Original Repo
 
-Source originally at: https://github.com/cg-brianlsh/coingecko-vs-coinmarketcap-calculator

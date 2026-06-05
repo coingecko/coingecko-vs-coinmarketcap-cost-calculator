@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { useState } from 'react';
 import { Settings2, Info, AlertTriangle, ArrowUpRight, CheckCircle2, XCircle } from 'lucide-react';
 
