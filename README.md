@@ -1,40 +1,23 @@
-# CoinGecko API vs CoinMarketCap API Credit & Cost Calculator
+# CoinGecko API vs CoinMarketCap API — Cost Calculator
 
-A self-contained, single-file web app that compares API credit/cost between CoinGecko and CoinMarketCap.
+An interactive, browser-based calculator that helps developers and businesses compare the true cost of using the **CoinGecko API** vs the **CoinMarketCap API** based on their actual usage patterns.
 
-## Files
+🔗 **[Try it live →](https://coingecko.github.io/coingecko-vs-coinmarketcap-cost-calculator/)**
 
-| File | Purpose |
-|------|---------|
-| `index.html` | **Production build** — fully self-contained (252 kB), ready to serve |
-| `.github/workflows/deploy.yml` | GitHub Actions workflow for auto-deploy to Pages |
-| `package.json` / `vite.config.ts` / `tsconfig.json` | Build tooling config |
-| `src/` | React + Tailwind source code |
+---
 
-## Deployment
+## Why This Tool Exists
 
-1. Create a **public** repo under the CoinGecko org
-2. Push all files to the `main` branch
-3. Go to repo **Settings → Pages** and set:
-   - Source: **GitHub Actions**
-4. The included workflow will deploy automatically on push
+CoinGecko and CoinMarketCap use fundamentally different credit consumption models, making a direct plan-to-plan price comparison misleading. This calculator normalizes those differences so you can see exactly what your workload costs on each platform — and which gives you more for your budget.
 
-The app is a single `index.html` — no build step needed for deployment. If changes are needed, source is in `src/`.
+---
 
-## To Rebuild (if modifying source)
+## What It Calculates
 
-```bash
-npm install
-npm run build
-# Output: dist/index.html (copy to root)
-```
+Configure your workload and the calculator instantly computes:
 
-## SEO
-
-Already configured:
-- `<title>`: CoinGecko API vs CoinMarketCap API Credit & Cost Calculator
-- `<meta name="description">`: SEO-optimized comparison description
-- `<meta name="google-site-verification">`: Search Console verification tag
-- `<meta name="robots">`: index, follow
-
-
+- **Monthly and annual cost** for the best-fit plan on each platform
+- **Credit consumption** based on your exact query patterns
+- **Overage charges** if your usage exceeds a plan's allowance
+- **Savings** — in dollars and percentage — for the cheaper option
+- **"The Maths"** — a transparent breakdown of how each figure is derived
