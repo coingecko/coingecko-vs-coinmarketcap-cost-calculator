@@ -24,9 +24,9 @@ const GECKO_PLANS: Plan[] = [
 
 const CMC_PLANS: Plan[] = [
   { name: 'Basic', monthly: 0, yearly: 0, credits: 15000, commercial: false, convPerCall: 1, overage: null, maxHistDays: 0, maxHourlyDays: 0 },
-  { name: 'Hobbyist', monthly: 35, yearly: 29, credits: 150000, commercial: false, convPerCall: 8, overage: null, maxHistDays: 1095, maxHourlyDays: 30 },
+  { name: 'Builder', monthly: 35, yearly: 29, credits: 150000, commercial: true, convPerCall: 8, overage: null, maxHistDays: 1095, maxHourlyDays: 30 },
   { name: 'Startup', monthly: 95, yearly: 79, credits: 450000, commercial: true, convPerCall: 40, overage: null, maxHistDays: Infinity, maxHourlyDays: 30 },
-  { name: 'Standard', monthly: 375, yearly: 299, credits: 2000000, commercial: true, convPerCall: 40, overage: null, maxHistDays: Infinity, maxHourlyDays: 90 },
+  { name: 'Growth', monthly: 375, yearly: 299, credits: 2000000, commercial: true, convPerCall: 40, overage: null, maxHistDays: Infinity, maxHourlyDays: 90 },
   { name: 'Professional', monthly: 875, yearly: 699, credits: 5000000, commercial: true, convPerCall: 80, overage: null, maxHistDays: Infinity, maxHourlyDays: 365 },
 ];
 
